@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:3000",
+    "https://outbreak-early-warning-monitor-1.onrender.com"
   ],
   credentials: true
 }));
