@@ -8,6 +8,13 @@ const authRoutes = require("./routes/auth.routes");
 app.use(cors());
 app.use(express.json());
 
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+  ],
+  credentials: true
+}));
+
 // Health check route
 app.get("/", (req, res) => {
   res.json({ message: "OEWM Backend is running" });
