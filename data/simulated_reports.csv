@@ -1,0 +1,6 @@
+date,zone_id,latitude,longitude,report_count,symptom_type
+2025-01-01,CM-YA-01,3.8480,11.5021,12,flu-like
+2025-01-02,CM-YA-01,3.8480,11.5021,15,flu-like
+2025-01-03,CM-YA-01,3.8480,11.5021,14,flu-like
+2025-01-04,CM-YA-01,3.8480,11.5021,13,flu-like
+2025-01-05,CM-YA-01,3.8480,11.5021,40,flu-like
