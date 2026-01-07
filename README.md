@@ -1,5 +1,6 @@
- Outbreak Early-Warning Monitor (OEWM)
-Project Overview
+Outbreak Early-Warning Monitor (OEWM)
+
+1. Project Overview
 
 The Outbreak Early-Warning Monitor (OEWM) is a full-stack web application designed to detect potential disease outbreaks earlier than traditional health surveillance systems.
 
@@ -13,7 +14,7 @@ Traditional public health surveillance systems suffer from time delays caused by
 Early warning signals often exist in non-clinical, unstructured data, but without automation, these signals remain unnoticed.
 
 OEWM addresses this gap by providing a rapid, automated, and visual early-warning layer to flag unusual patterns for further investigation by public health officials.
-Project Goals & Objectives
+2. Project Goals & Objectives
 
     Develop a data ingestion pipeline for simulated outbreak reports
 
@@ -27,7 +28,7 @@ Project Goals & Objectives
 
     Deliver a functional MVP within a 4-week timeline
 
-Target Users
+3. Target Users
 
     Public Health Analysts – Continuous outbreak monitoring
 
@@ -35,7 +36,7 @@ Target Users
 
     Epidemiology Students & Researchers – Studying early-warning systems
 
-Key Features
+4. Key Features
 
     User Authentication
 
@@ -65,7 +66,7 @@ Key Features
 
         Charts comparing daily counts against baselines
 
-System Architecture
+5. System Architecture
 
 Frontend (React)
 │
@@ -275,39 +276,6 @@ Deployment
     Frontend served via React production build
 
 Live Application URL: https://outbreak-early-warning-monitor-1.onrender.com/
-
-Project Timeline (4 Weeks)
-Week 1 – Foundation
-
-    Database schema design
-
-    Authentication system
-
-    Data ingestion API
-
-Week 2 – Intelligence
-
-    Baseline calculation
-
-    Anomaly detection logic
-
-    Alerts API
-
-Week 3 – Visualization
-
-    Alerts dashboard
-
-    Map integration
-
-    Alert history
-
-Week 4 – Polish
-
-    Charts & trend analysis
-
-    Testing
-
-    Deployment
 
 Success Criteria
 
