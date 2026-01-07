@@ -3,7 +3,7 @@ Project Overview
 
 The Outbreak Early-Warning Monitor (OEWM) is a full-stack web application designed to detect potential disease outbreaks earlier than traditional health surveillance systems.
 
-Instead of relying solely on hospital or laboratory data (which often arrives late), OEWM analyzes simulated proxy data—such as reports of flu-like symptoms—to identify statistical anomalies that may signal emerging outbreaks.
+Instead of relying solely on hospital or laboratory data (which often arrives late), OEWM analyzes simulated proxy data; such as reports of flu-like symptoms, to identify statistical anomalies that may signal emerging outbreaks.
 
 The system ingests time-stamped and location-tagged data, calculates statistical baselines, detects abnormal spikes, and displays geographic alerts on an interactive dashboard for rapid situational awareness.
  Problem Statement
